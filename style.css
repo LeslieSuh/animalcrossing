@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Stylish&display=swap");
+
 body {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: lavenderblush;
 }
