@@ -9,19 +9,10 @@
   </head>
   <body>
     <h1>ACNH<br>Villagers</br></h1>
-    <div class="selectLanguage" onchange="onlanguagechanged()">
-        <span id="languageText">Language</span>
-        <select id="languageSelect">
-            <option>English</option>
-            <option>日本語</option>
-            <option>Français</option>
-            <option>한국어</option>
-        </select>    
-    </div>
     <br>
     <div class="searchBar">
         <input id="searchName">
-        <button id="searchBtn" onclick="onSearch()">Search</button>
+        <button id="searchBtn">Search</button>
     </div>
     <br><br>
     <div class="results">
@@ -30,7 +21,7 @@
         <div id="frfr"><b>French:</b></div>
         <div id="krko"><b>Korean:</b></div>
     </div>
-    <script src="index.js"></script>
-    <script src="data.js" type="text/data.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="data.js"></script>
   </body>
 </html>
